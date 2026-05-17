@@ -1,6 +1,6 @@
 # Sentinal AI Auto-Fix
 # Service: checkout-service
-# Change: Add circuit breaker with fallback to cached inventory.
+# Change: Add circuit breaker with 50% failure threshold and fallback to cached inventory data.
 
 # This file was modified by Sentinal AI to address:
-# [checkout-service] Mitigate UpstreamServiceUnavailable regression after REL-2026.05.15-3
+# [checkout-service] Mitigate [ERROR]_HTTP5xxSpike:_503_Serv regression after recent deployment
